@@ -3,9 +3,11 @@
     font-family: 'Roboto', sans-serif;
 
 }
+
 body {
     margin: 0px;
 }
+
 header {
     background-color: #1F2937;
     margin-top: 25px;
@@ -16,40 +18,51 @@ header {
     height: 50px;
     justify-content: space-between;
 }
+
 h1 {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 150px;
     margin: 0;
+    flex: 1;
 }
+
 .header-links {
     display: flex;
     gap: 18px;
     margin: 0;
+    flex: 1;
 
 }
+
 .header-link{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7Eb;
     gap: 18px;
+    flex: 1;
 }
+
 ul {
     list-style: none;
     color: #E5E7Eb;
+    flex: 1;
 }
+
 h2 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: 5px;
 }
+
 .hero {
     display: flex;
     margin-left: 150px;
     margin-right: 150px;
     height: 350px;
 }
+
 .hero-left {
     color: #E5E7Eb;
     font-size: 18px;
@@ -59,10 +72,12 @@ h2 {
     max-width: 50%;
     flex: 1;
 }
+
 .hero-left-txt {
     margin-top: 5px;
     margin-right: 5px;
 }
+
 .hero-right {
     max-width: 50%;
     flex: 1;
@@ -71,9 +86,11 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
 .hero-right-txt {
     background:none;
 }
+
 .hero-btn {
     background-color: #3882F6;
     border: none;
@@ -82,10 +99,12 @@ h2 {
     padding: 10px 15px;
     max-width: 100px;
 }
+
 .information {
     background-color: white;
     margin: 0px;
 }
+
 h3 {
     background-color: white;
     color: #1F2937;
@@ -93,27 +112,62 @@ h3 {
     font-weight: bolder;
     text-align: center;
 }
+
 .info-box-container {
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 18px;
+    padding: 50px;
 }
+
 .info-box-txt {
     background-color: white;
+    width: 150px;
 }
 
 .info-box1, .info-box2,
 .info-box3, .info-box4 {
     background-color: white;
-    flex: 1;
+    flex: 1;    
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
+
 .info-img {
     height: 150px;
     width: 150px;
     border: #3882F6 solid 2px;
     border-radius: 11px;
     background-color: white;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    max-height: 420px;
+    margin: 0px;
+    padding: 150px;
+    flex-flow: flow;
+}
+
+.quote-txt{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    text-align: center;
+}
+
+.quote-attrb{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: flex-end;
+    width: 950px;
+    font-weight: bold;
+    margin-top: 15px;
 }
